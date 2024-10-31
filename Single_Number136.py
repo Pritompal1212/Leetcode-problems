@@ -14,14 +14,28 @@
 
 
 
+# def removeElement(nums):
+#     s={}
+#     for i in nums:
+#         if i not in s:
+#             s[i]= 1
+#         else:
+#             s[i]+=1
+#     return s
+    
 
-def removeElement(nums, val):
-    arr=[]
+# nums=[2,2,1]
+
+# print(removeElement(nums))
+
+
+#authentic
+def removeElement(nums):
+    ans=0
     for i in nums:
-        if i!=val:
-            arr.append(i)
-    return arr
-
-nums=[2,2,1]
-val=2
-print(removeElement(nums, val))
+        ans ^= i
+    return ans
+    
+    
+nums=[2,2,1] 
+print(removeElement(nums))
