@@ -16,7 +16,7 @@ def subsets(nums):
 
     # Start backtracking from the first index
     backtrack(0, [])
-    return resultgit ad
+    return result
 
 # Test the function
 nums = [1, 2, 3]
