@@ -15,6 +15,6 @@ def addStrings(num1, num2):
         j-=1
     return rsl
 
-num1 = "11"
-num2 = "123"
+num1 = "456"
+num2 = "77"
 print(addStrings(num1, num2))
